@@ -36,7 +36,7 @@
 
         entry.dataset["postId"] = post.id;
         entry.dataset["score"] = post.score;
-        entry.dataset["downs"] = post.downs;
+        entry.dataset["downs"] = post.downs; //Reddit API always 0 as far as I can see...
         entry.dataset["createdOn"] = post.created_utc;
 
         //We need to insert another layer to be able to clear flex layout

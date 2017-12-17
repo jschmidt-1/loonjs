@@ -9,8 +9,6 @@ Contains user defined element styles
 
 #main_form {
     background-color: rgb(170, 186, 190);
-    min-width: 600px;
-    min-height: 400px;
     
     height: 100%;
     width: 95%;
