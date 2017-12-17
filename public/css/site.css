@@ -28,7 +28,7 @@ Contains user defined element styles
 }
 
 #entry_container {
-    height: calc(100% - 180px);
+    height: calc(100% - 190px);
     margin: 20px auto 20px auto;
     overflow: auto;
 

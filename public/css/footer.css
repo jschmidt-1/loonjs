@@ -1,0 +1,22 @@
+/*
+loonjs: footer.css
+Licensed under MIT (https://github.com/jschmidt-1/loonjs/blob/master/LICENSE)
+*/
+
+/*
+Contains styles for the document footer
+*/
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: rgb(2, 30, 37);
+    text-decoration: underline;
+}
