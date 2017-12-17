@@ -23,7 +23,7 @@
     "use strict";
 
     //Reddit URL...
-    const REDDIT = "http://www.reddit.com";
+    const REDDIT = "https://www.reddit.com";
 
     //Last loaded post
     var after = {};
