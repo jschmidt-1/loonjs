@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+loonjs: index.html
+Licensed under MIT (https://github.com/jschmidt-1/loonjs/blob/master/LICENSE)
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/css/default.css">
+    <link rel="stylesheet" href="public/css/site.css">
+
+    <script src="public/scripts/events.js"></script>
+    <script src="public/scripts/reddit.js"></script>
+    <script src="public/scripts/entry.js"></script>
+
+    <base target="_blank">
+
+    <title>Loon</title>
+</head>
+<body>
+    <div id="main_form" class="shadow">
+        <div id="control_container" class="shadow container">
+            <div class="labeled_input">
+                <label for="input_subreddit">Subreddit</label>
+                <input type="search" id="input_subreddit" placeholder="Subreddit...">
+            </div>
+            <div class="labeled_input">
+                <label for="select_limit">Limit</label>
+                <select id="select_limit"></select>
+            </div>
+            <div class="labeled_input">
+                <label for="select_category">Kategorie</label>
+                <select id="select_category"></select>
+            </div>
+            <input type="button" id="btn_load" value="Laden">
+        </div>
+        <div id="sort_container" class="shadow container">
+            <label for="sorter">Sortiere nach</label>
+            <fieldset id="sorter">
+                <input type="radio" class="btn_radio" name="sorter" id="sort_upvotes" value="score" checked="checked">
+                <label for="sort_upvotes">Upvotes</label>
+                <input type="radio" class="btn_radio" name="sorter" id="sort_downvotes" value="downs">
+                <label for="sort_downvotes">Downvotes</label>
+                <input type="radio" class="btn_radio" name="sorter" id="sort_age" value="createdOn">
+                <label for="sort_age">Neueste</label>
+            </fieldset>
+        </div>
+        <div id="entry_container" class="shadow container">
+
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+</html>

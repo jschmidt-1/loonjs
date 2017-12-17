@@ -1,0 +1,42 @@
+/*
+loonjs: default.css
+Licensed under MIT (https://github.com/jschmidt-1/loonjs/blob/master/LICENSE)
+*/
+
+/*
+Contains styles for default html elements
+*/
+
+html {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    color: rgb(2, 30, 37);
+    line-height: 1.3em;
+    background: rgb(125, 164, 173);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inherit;
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
